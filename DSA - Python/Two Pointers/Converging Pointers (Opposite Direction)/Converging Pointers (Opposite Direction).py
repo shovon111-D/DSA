@@ -11,3 +11,11 @@ def two_sum_sorted(nums: list[int], target: int) -> list[int]:
         else:
             right -= 1  # Need a smaller sum
     return []
+
+
+if __name__ == "__main__":
+    nums = [1, 3, 4, 6, 8, 10]
+    target = 14
+
+    result = two_sum_sorted(nums, target)
+    print(result)
